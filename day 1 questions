@@ -76,7 +76,40 @@ a=a^b
 print(a,b)
 '''
 # multiply any num with 64 w/o using arithmetic opr
+'''
 a=int(input())
-
+b=x<<6
+print(a)
+'''
 
 # to divide any num by 32 w/o using arithmetic opr
+'''
+a=int(input())
+b=x>>5
+print(a)
+'''
+# multiply any num 65
+'''
+a=int(input())
+b=(a<<6)+1
+print(a)
+'''
+# to enter number of days and print year, weeks and remaining days.
+'''
+d=int(input())
+y=int(d/365)
+w=int((d%365)/7)
+dl=int((d%365)%7)
+print(y,w,dl)
+'''
+
+# input an angle to check whether the triangle is valid or not
+'''
+a=int(input())
+b=int(input())
+c=int(input())
+s=a+b+c
+if s==180:
+    print("triangle is valid")
+else:
+    print("invalid triangle")
